@@ -1,4 +1,4 @@
-📚 Seções
+📚 <strong> <span style="font-size: 15px;"> Seções </span> </strong> <br>
 O site é composto por cinco seções:
 
 Home: Nele temos uma breve apresentação;
