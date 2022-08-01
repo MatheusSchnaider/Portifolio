@@ -15,7 +15,10 @@ function styles() {
 };
 
 function scripts() {
-	return gulp.src('./assets/js/**/*.js', { sourcemaps: true })
+	return gulp.src(['./assets/js/jquery.js',		
+		'./assets/js/**/*.js'],
+		{ sourcemaps: true }
+	)
 		.pipe(babel())
 		.pipe(uglify())
 		.pipe(concat('main.min.js'))
