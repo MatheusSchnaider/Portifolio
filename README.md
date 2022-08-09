@@ -8,7 +8,7 @@
 
 O site é composto por cinco seções:
 
-- **Home:** Nele temos uma breve apresentação;
+- **Inicio:** Nele temos uma breve apresentação;
 - **Sobre** Nessa seção tenho uma descrição dizendo um pouco sobre quem sou;
 - **Projetos:** Apresenta alguns projetos desenvolvidos e com link direto para os respectivos códigos no GitHub;
 - **Especialidades:** Exibe através de cards os diferentes serviços em que possuo conhecimentos;
