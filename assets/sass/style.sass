@@ -363,7 +363,7 @@ body
         align-items: center
 
         .contact .contact-content .column
-            width: calc(45% - 30px)
+            width: calc(80% - 30px)
 
     .contact .contact-content
         align-items: flex-start
@@ -439,8 +439,8 @@ body
             width: 170px
             height: 47px
 
-            & button
-                width: 100%
+    & button
+                width: 200px
                 height: 100%
                 border: 2px solid #00BFA6
                 background: #00BFA6
@@ -451,16 +451,23 @@ body
                 cursor: pointer
                 transition: all 0.3s ease
 
-            & button:hover
+    & button:hover
                 color: #00BFA6
-                background: none
+                background: #fff
 
     /*  sessão footer  */
     footer
         background: #111
+        font-size: 15px
+        font-family: 'Roboto', sans-serif
         padding: 20px 23px
         color: #fff
         text-align: center
+
+    footer .linha-vertical
+        height: 100%
+        border-top: 1px solid #fff
+        margin: 50px
 
     footer span a
         color: #00BFA6
